@@ -1,0 +1,22 @@
+.row {
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 200px;
+}
+
+[class^="col-"] {
+  background-color: #ffc0cb;
+  border: 1px solid black;
+  text-align: center;
+  line-height: 200px;
+  float: left;
+}
+
+.row .row [class^="col-"] {
+  background-color: #f07f80;
+  border: 1px solid white;
+}
+
+.row .row {
+  padding: 5px;
+}
